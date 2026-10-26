@@ -102,7 +102,7 @@ function next(announce = false) {
 function scheduleSlide() {
   clearInterval(timer);
   if (!paused && !document.hidden && !document.querySelector('#image-viewer').open && !carousel.matches(':hover') && !carousel.contains(document.activeElement)) {
-    timer = setInterval(() => next(), 5000);
+    timer = setInterval(() => next(), 3000);
   }
 }
 function updatePause() {
