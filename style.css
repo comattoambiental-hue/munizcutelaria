@@ -33,3 +33,6 @@ main{background-image:linear-gradient(rgba(20,17,14,.92),rgba(20,17,14,.92)),url
 
 /* Nova composição de tábua com churrasco atrás do texto do topo. */
 .carousel-slide .hero-copy::before{background-image:url('assets/tabua-churrasco-topo.png');background-position:center;background-size:contain;opacity:.14;transform:rotate(-10deg);filter:none}@media(max-width:520px){.carousel-slide .hero-copy::before{opacity:.1;transform:rotate(-7deg)}}
+
+/* Composição completa com os legumes da referência. */
+.carousel-slide .hero-copy::before{background-image:url('assets/tabua-churrasco-legumes.png')}
