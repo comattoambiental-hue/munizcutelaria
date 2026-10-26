@@ -24,3 +24,6 @@ main{background-image:linear-gradient(rgba(20,17,14,.92),rgba(20,17,14,.92)),url
 
 /* Tábuas recortadas sem painel de madeira ao fundo. */
 .boards .board-photo{background:transparent!important}.wood-photos a,.board-banner .hero-feature{background:transparent;border:0;outline:0;box-shadow:none;padding:0}.wood-photos a img,.board-banner .hero-photo img{background:transparent}.board-banner .hero-feature::before,.board-banner .hero-feature::after{display:none}
+
+/* Tábua decorativa transparente atrás do texto dos banners. */
+.carousel-slide .hero-copy{position:relative;isolation:isolate}.carousel-slide .hero-copy::before{content:'';position:absolute;inset:-25px -15px -25px -25px;z-index:-1;pointer-events:none;background:url('assets/taboa-09-sem-fundo.png') center/contain no-repeat;opacity:.13;transform:rotate(-14deg);filter:sepia(.2)}@media(max-width:520px){.carousel-slide .hero-copy::before{inset:-10px 0;opacity:.1;transform:rotate(-10deg)}}
