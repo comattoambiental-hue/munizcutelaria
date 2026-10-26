@@ -27,7 +27,7 @@ function createPriorityPicker(ready, others, random = Math.random) {
 
 const carousel = document.querySelector('.hero-carousel');
 const banner = carousel.querySelector('.carousel-slide');
-const catalog = [...document.querySelectorAll('#colecao .board-card, #taboas .board-card, #encomendas .board-card')].map(card => {
+const catalog = [...document.querySelectorAll('#colecao .board-card')].map(card => {
   const photo = card.querySelector('img');
   const ready = !!card.closest('#colecao');
   const order = !!card.closest('#encomendas');
