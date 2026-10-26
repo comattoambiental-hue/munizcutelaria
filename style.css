@@ -21,3 +21,6 @@ button.board-photo{padding:0;width:100%;border:0;border-bottom:1px solid var(--l
 
 /* Toras discretas no fundo geral: imagem visível a aproximadamente 8%. */
 main{background-image:linear-gradient(rgba(20,17,14,.92),rgba(20,17,14,.92)),url('assets/fundo-toras.png');background-size:auto,1100px auto;background-position:center top;background-repeat:repeat}.collection,.boards,.orders,.essence,.wood-showcase,.contact{background-image:none;background-color:transparent}.boards,.wood-showcase{background-color:#4b2e1512}.essence{background-color:#2e1c111c}.collection .section-heading::after,.boards .section-heading::after,.orders .section-heading::after{background:#17130f}.site-footer{background-image:linear-gradient(rgba(13,11,9,.95),rgba(13,11,9,.95)),url('assets/fundo-toras.png')!important;background-size:auto,1100px auto!important;background-position:center!important}.wood-copy>p:not(.eyebrow){color:#d9c4aa}@media(max-width:520px){main{background-size:auto,720px auto}}
+
+/* Tábuas recortadas sem painel de madeira ao fundo. */
+.boards .board-photo{background:transparent!important}.wood-photos a,.board-banner .hero-feature{background:transparent;border:0;outline:0;box-shadow:none;padding:0}.wood-photos a img,.board-banner .hero-photo img{background:transparent}.board-banner .hero-feature::before,.board-banner .hero-feature::after{display:none}
