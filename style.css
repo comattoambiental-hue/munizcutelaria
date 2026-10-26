@@ -30,3 +30,6 @@ main{background-image:linear-gradient(rgba(20,17,14,.92),rgba(20,17,14,.92)),url
 
 /* Cena de churrasco discreta no lugar do fundo de toras. */
 main{background-image:linear-gradient(rgba(20,17,14,.92),rgba(20,17,14,.92)),url('assets/fundo-churrasco.png');background-size:auto,1600px auto;background-position:center top;background-repeat:repeat}.site-footer{background-image:linear-gradient(rgba(13,11,9,.95),rgba(13,11,9,.95)),url('assets/fundo-churrasco.png')!important;background-size:auto,1600px auto!important}@media(max-width:520px){main{background-size:auto,900px auto}}
+
+/* Nova composição de tábua com churrasco atrás do texto do topo. */
+.carousel-slide .hero-copy::before{background-image:url('assets/tabua-churrasco-topo.png');background-position:center;background-size:contain;opacity:.14;transform:rotate(-10deg);filter:none}@media(max-width:520px){.carousel-slide .hero-copy::before{opacity:.1;transform:rotate(-7deg)}}
