@@ -34,7 +34,7 @@ const catalog = [...document.querySelectorAll('#colecao .board-card')].map(card 
   return {
     image: photo.getAttribute('src'),
     alt: photo.alt,
-    title: card.querySelector('h3').textContent,
+    title: card.querySelector('h3').textContent.replace(/\s*[—–-]\s*/g, ' ').replace(/\s+/g, ' ').trim(),
     description: card.querySelector('.board-info p').textContent,
     href: card.querySelector('.board-info .text-link').href,
     ready,
