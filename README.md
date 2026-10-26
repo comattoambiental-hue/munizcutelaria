@@ -38,3 +38,7 @@ A seção `#encomendas` contém as 33 fotos de conjuntos do ZIP facas sobe encom
 A seção `#colecao` contém 10 fotos recebidas no ZIP facas a pronta entrega.zip, com referências PE-01 a PE-10 e consultas individuais no WhatsApp. Disponibilidade e preços devem ser confirmados no atendimento. A campeira e a picanheira de 10 polegadas foram identificadas pelo usuário; materiais e medidas não informados ficam sem especificação. As ilustrações conceituais iniciais foram substituídas por fotos.
 
 Segundo lote de pronta entrega: oito novos itens (PE-11 a PE-15 e PE-18 a PE-20). Duas fotos adicionais da campeira já apresentada foram omitidas para evitar repetição. Total de 18 itens à pronta entrega, 33 seleções sob encomenda e 11 fotos de tábuas/kits.
+
+## Fotos de tábuas sem fundo
+
+As 11 imagens `assets/taboa-XX-sem-fundo.png` são versões com remoção de fundo, usadas no catálogo, no banner e na seção decorativa. As fotos JPEG originais foram preservadas.
