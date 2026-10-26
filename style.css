@@ -15,3 +15,6 @@ button.board-photo{padding:0;width:100%;border:0;border-bottom:1px solid var(--l
 
 /* Recortes transparentes das tábuas */
 .boards .board-photo img,.wood-photos img,.board-banner .hero-photo img{background:transparent;border-color:transparent}.boards .board-photo{background:linear-gradient(#1b140c33,#1b140c33),url('assets/madeira-rustica.svg') center/cover!important}.wood-photos a{padding:12px}.board-banner .hero-feature{background:linear-gradient(#1b140c33,#1b140c33),url('assets/madeira-rustica.svg') center/cover}.viewer-image{background:transparent}
+
+/* Teste de fundo: tábuas verticais em madeira escura */
+.boards .board-photo{background:linear-gradient(#100b071a,#100b071a),url('assets/fundo-madeira-taboas.png') center/cover!important}.wood-photos a{background:url('assets/fundo-madeira-taboas.png') center/cover}.board-banner .hero-feature{background:linear-gradient(#100b071a,#100b071a),url('assets/fundo-madeira-taboas.png') center/cover}
