@@ -43,7 +43,7 @@ function showSlide(index, announce = false) {
 function scheduleSlide() {
   clearInterval(timer);
   if (!paused && !document.hidden && !carousel.matches(':hover') && !carousel.contains(document.activeElement)) {
-    timer = setInterval(() => showSlide(activeSlide + 1), 6000);
+    timer = setInterval(() => showSlide(activeSlide + 1), 5000);
   }
 }
 function updatePause() {
